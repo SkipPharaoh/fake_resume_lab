@@ -1,0 +1,26 @@
+h1 {
+    color: darkred;
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+}
+
+h3 {
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    font-style: italic;
+}
+
+a {
+    text-align: center;
+}
+
+nav {
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
