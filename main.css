@@ -16,9 +16,10 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
     width: 50%;
-    border: 1px black;
-  }
+    border: 1px inset black;
+}
 
 h3 {
     font-style: italic;
@@ -47,11 +48,11 @@ nav {
     width: 33.33%;
     border: 10px plum;
     color: purple;
-  }
+}
   
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
