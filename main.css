@@ -6,11 +6,18 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border: 1px black;
   }
 
 h3 {
@@ -21,6 +28,7 @@ h3 {
 
 body {
     margin: 15px;
+    border: 5px black;
 }
 
 ul {
@@ -33,3 +41,17 @@ nav {
     font-size: 20px;
     text-align: center;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    border: 10px plum;
+    color: purple;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
